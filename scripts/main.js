@@ -2,7 +2,7 @@
 //miTitulo.innerHTML = "Hello world!";
 
 document.querySelector('html').onclick = function() {
-    //alert('Ouch! Deja de pincharme!');
+    alert('Ouch! Deja de pincharme!');
 }
 
 var miBoton = document.querySelector('button');
