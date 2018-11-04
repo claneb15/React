@@ -2,7 +2,7 @@
 //miTitulo.innerHTML = "Hello world!";
 
 document.querySelector('html').onclick = function() {
-    alert('Ouch! Deja de pincharme!, deja de cambiar de branch');
+    alert('Ouch! Deja de pincharme!, deja de cambiar de branch, branch text');
 }
 
 var miBoton = document.querySelector('button');
