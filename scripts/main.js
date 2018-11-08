@@ -2,7 +2,7 @@
 //miTitulo.innerHTML = "Hello world!";
 
 document.querySelector('html').onclick = function() {
-    alert('Ouch! Deja de pincharme!, deja de cambiar de branch, branch text');
+    alert('Ouch! Deja de pincharme!, deja de cambiar de branch, branch text, este cambio es para github');
 }
 
 var miBoton = document.querySelector('button');
@@ -19,7 +19,7 @@ if (!localStorage.getItem('nombre')) {
 function estableceNombreUsuario() {
     var miNombre = prompt('Por favor, ingresa tu nombre.');
     localStorage.setItem('nombre', miNombre);
-    miTitulo.textContent = 'Mozilla es fresco,' + miNombre;
+    miTitulo.textContent = 'Mozilla es fresco, cambio para github' + miNombre;
 }
 
 
