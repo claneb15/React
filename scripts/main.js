@@ -19,7 +19,7 @@ if (!localStorage.getItem('nombre')) {
 function estableceNombreUsuario() {
     var miNombre = prompt('Por favor, ingresa tu nombre.');
     localStorage.setItem('nombre', miNombre);
-    miTitulo.textContent = 'Mozilla es fresco, cambio para github' + miNombre;
+    miTitulo.textContent = 'Mozilla es fresco, cambio para github, testeo' + miNombre;
 }
 
 
